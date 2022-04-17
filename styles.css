@@ -1,0 +1,183 @@
+body {
+    
+    margin: 0;
+    text-align: center;
+
+}
+
+/* to create a kind of contrast, we gave h1,h2,h3 sans serif and all the p elements serif */
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* targeting all the h2s  */
+h2 {
+
+    color: #66bfbf;
+    font-size: 2.5rem;
+    font-weight: normal;
+
+}
+
+h3 {
+    color: #11999e;
+
+}
+
+hr {
+    border-style: dotted;
+    border-bottom: none;
+    border-width: 6px;
+    color: rgb(200, 188, 188);
+    margin: 100px auto;
+    width: 4%;
+}
+
+p {
+    color: #40514e;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+
+}
+
+/* title */
+.title-container {
+
+    background-color: #e4f9f5;
+    margin-bottom: 80px;
+    padding-top: 40px;
+
+}
+
+.title-heading {
+    color: #66bfbf;
+    font-size: 5.625rem;
+    font-weight: lighter;
+    position: relative;
+}
+
+.sun {
+    height: 100px;
+    left: 28%;
+    position: absolute;
+    top: 11%;
+    width: 100px;
+
+}
+
+.plane {
+    height: 80px;
+    position: absolute;
+    right: 340px;
+    top: 220px;
+    width: 80px;
+}
+
+.playground {
+    height: 300px;
+    padding-top: 20px;
+    width: 300px;
+
+}
+
+/* about*/
+
+
+.myPic {
+    width: 200px;
+    height: 200px;
+}
+
+.intro-text {
+    width: 30%;
+    margin: 20px auto;
+}
+
+/* skill */
+
+
+.skill-container {
+    margin: 50px auto;
+    text-align: left;
+    width: 50%;
+}
+
+.comp-img {
+    float: left;
+    margin-right: 20px;
+    width: 25%;
+}
+
+.chillies-img {
+    float: right;
+    width: 25%;
+}
+
+/* cta */
+
+.cta-container {
+    padding: 10px 0 40px 0;
+}
+
+.cta-text-box {
+
+    width: 50%;
+    margin: 30px auto;
+}
+
+/* footer */
+#footer {
+    background-color: #66bfbf;
+    padding: 30px;
+}
+
+a {
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 8px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+
+.copyright {
+    color: #fff;
+    font-size: 0.75rem;
+}
+
+/* Button generator template code */
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+/* font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif; */
